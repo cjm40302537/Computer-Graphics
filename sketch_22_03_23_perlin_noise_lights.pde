@@ -29,9 +29,7 @@ void draw() {
   background(0);
   stroke(255);
   fill(0);
-  if (mousePressed) {
-    lights();
-  }
+  lights();
   translate(mouseX, mouseY);
   noStroke();
   fill(255);
